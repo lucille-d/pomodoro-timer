@@ -14,7 +14,8 @@ function createWindow(){
         height: 200,
         resizable: false,
         title: 'Pomodoro Timer',
-        autoHideMenuBar: true,
-        backgroundColor: '#333'
+        autoHideMenuBar: true
     });
+
+    mainWindow.loadURL('file://' + __dirname + '/index.html');
 };

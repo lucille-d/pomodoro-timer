@@ -1,0 +1,24 @@
+body {
+    background: #333;
+    font-family: "Lucida Console", sans-serif;
+}
+
+.timer {
+    width: 100%;
+    font-size: 90px;
+    align: center;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+button.start {
+    color: green;
+}
+
+button.reset {
+    color: red;
+}
