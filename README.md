@@ -2,19 +2,22 @@
 A simple pomodoro timer built with electron.
 
 ## Installation
-### Requirements
-### Getting started
+1. Clone the repository
+2. From the root folder, run `npm install` to install dependencies
+3. To start the app, run `npm start`
 
 ## Features
+* Start/reset 25 minutes sessions
+* Finish sound plays at the end of a session
 
 ## TODO
 * button style
-* doc install in readme
-* feature list in readme
+* app style
 * keyboard shortcuts
+* notification in tray
 * break time
 * settings
     * time intervals
     * day/night mode
-* notification in tray
 * icon
+* build installer
